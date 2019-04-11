@@ -1,109 +1,134 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,user-scalable=1">
+    <meta name="theme-color" content="#62B1FD">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Visualize.news</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Neuton:800|Open+Sans:300,800&amp;subset=latin-ext" rel="stylesheet">
+
     <style>
-      body {
-        background: #eff8ff url(title4x.png) top left no-repeat;
-        background-size: contain;
-        color: #444;
-        font-family: sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        min-height: 100%;
-        padding-top: 10vh;
-        position: relative;
-        width: 100%;
-      }
-
-      @media screen and (min-width:960px) {
         body {
-          padding-top: 20vh;
+            background: #f9fcff url(title4x.png) top left no-repeat;
+            background-size: contain;
+            color: #444;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 1.5;
+            min-height: 100%;
+            padding-top: 10vh;
+            position: relative;
+            width: 100%;
         }
-      }
-
-      @media screen and (min-width:1280px) {
-        body {
-          padding-top: 30vh;
+        
+        @media screen and (min-width:960px) {
+            body {
+                padding-top: 20vh;
+            }
         }
-      }
-
-      article {
-        display: block;
-        margin: 0 auto;
-        max-width: 600px;
-        width: 85%;
-      }
-
-      h1 {
-        font-size: 24px;
-        font-weight: 400;
-        margin: 0 0 30px 0;
-        text-transform: uppercase;
-      }
-
-      ul, li {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      ul {
-        margin-bottom: 40px;
-      }
-
-      li {
-        margin-bottom: 10px;
-      }
-
-      li a {
-        background: rgba(255,255,255,.25);
-        border-left: 5px solid rgba(0, 0, 0, 0.5);
-        color: #444;
-        display: block;
-        font-family: monospace;
-        font-size: 12px;
-        letter-spacing: .02rem;
-        padding-left: 20px;
-        text-decoration: none;
-      }
-
-      li a:hover,
-      li a:active {
-        background: rgba(0,0,0,.02);
-        border-left-color: rgb(96, 184, 255);
-        color: rgb(96, 184, 255);
-      }
-
-      li a strong {
-        text-transform: uppercase;
-      }
-
-
+        
+        @media screen and (min-width:1280px) {
+            body {
+                padding-top: 30vh;
+            }
+        }
+        
+        article {
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
+            width: 85%;
+        }
+        
+        h1 {
+            color: rgba(0, 0, 0, .4);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: .002em;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+        }
+        
+        h2 {
+            color: #62B1FD;
+            font-family: 'Neuton', serif;
+            font-size: 46px;
+            font-weight: 800;
+            letter-spacing: .002em;
+            line-height: .9;
+            margin: 0 0 40px 0;
+            max-width: 450px;
+        }
+        
+        ul,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            margin-bottom: 40px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        li a {
+            background: rgba(255, 255, 255, .25);
+            border-left: 5px solid rgba(0, 0, 0, 0.5);
+            color: #444;
+            display: block;
+            font-size: 14px;
+            letter-spacing: .02em;
+            padding-left: 20px;
+            text-decoration: none;
+        }
+        
+        li a:hover,
+        li a:active {
+            background: rgba(0, 0, 0, .02);
+            border-left-color: #62B1FD;
+            color: #62B1FD;
+        }
+        
+        li a strong {
+            font-weight: 800;
+            text-transform: uppercase;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <article>
-      <header>
-        <h1>Visualize News</h1>
-      </header>
-      <div>
-        <p>We're working on our website, in the meantime you can have a look at the projects we recently released:</p>
+        <header>
+            <h1>Visualize News</h1>
 
-        <ul>
-          <li><a href="https://india.visualize.news/"><strong>Lok Sabha 2019</strong> - An eye on the 2019 Indian General Elections</a></li>
-          <li><a href="https://2018.elezioni.io/"><strong>Elezioni 2018</strong> - An analysis on the 2018 Italian General Elections</a></li>
-        </ul>
+            <h2>We use data to design new experiences.</h2>
+        </header>
+        <div>
+            <p>Recent projects:</p>
 
-        <p>If you want to get in touch with us:</p>
+            <ul>
+                <li><a href="https://india.visualize.news/"><strong>Lok Sabha 2019</strong> - An eye on the 2019 Indian General Elections</a></li>
+                <li><a href="https://2018.elezioni.io/"><strong>Elezioni 2018</strong> - An analysis on the 2018 Italian General Elections</a></li>
+            </ul>
 
-        <ul>
-          <li><a href="https://twitter.com/visualizenews">Twitter</a></li>
-          <li><a href="https://medium.com/visualize-news">Medium</a></li>
-        </ul>
-      </div>
+            <p>If you want to get in touch with us:</p>
+
+            <ul>
+                <li><a href="https://twitter.com/visualizenews">Twitter</a></li>
+                <li><a href="https://medium.com/visualize-news">Medium</a></li>
+            </ul>
+        </div>
     </article>
 
 
@@ -111,13 +136,17 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137198797-3"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-137198797-3');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-137198797-3');
     </script>
 
 
 
-  </body>
+</body>
+
 </html>
