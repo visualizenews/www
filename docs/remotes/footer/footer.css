@@ -40,3 +40,10 @@
         margin: 0;
         padding: 0;
       }
+
+      .vn img {
+        height: 3rem;
+        object-fit: contain;
+        vertical-align: middle;
+        width: 3rem;
+      }
